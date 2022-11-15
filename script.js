@@ -18,7 +18,7 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
 
     //Show the result to the user
-    document.getElementById("result").innerHTML="If you deposit <span class='highlight_value'>"+principal+"</span>,\<br\>at an interest rate of <span class='highlight_value'>"+rate+"%</span>\<br\>You will receive an amount of <span class='highlight_value'>"+amount+"</span>,\<br\>in the year <span class='highlight_value'>"+year+"</span>\<br\>";
+    document.getElementById("result").innerHTML="If you deposit <span class='highlight_value'>"+principal+"</span>,\<br\>at an interest rate of <span class='highlight_value'>"+rate+"%</span>.\<br\>You will receive an amount of <span class='highlight_value'>"+amount+"</span>,\<br\>in the year <span class='highlight_value'>"+year+"</span>\<br\>";
 }
 
 // Function to show the percentage selected form the Range slider
