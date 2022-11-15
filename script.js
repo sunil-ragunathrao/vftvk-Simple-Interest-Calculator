@@ -9,6 +9,8 @@ function compute()
     if(principal <= 0) {
         alert("Enter a Positive number");
         document.getElementById("principal").focus();
+        document.getElementById("result").innerHTML="";
+        return false;
     }
 
     // Calculate the Amount
