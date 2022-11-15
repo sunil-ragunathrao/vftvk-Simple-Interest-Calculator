@@ -11,8 +11,8 @@ function compute()
         document.getElementById("principal").focus();
     }
 
-    // Calculate the Interest Rate
-    var interest = principal * years * rate / 100;
+    // Calculate the Amount
+    var amount = principal * years * rate / 100;
 
     // Calculate the Last Year based on the no of years selected.
     var year = new Date().getFullYear()+parseInt(years);
