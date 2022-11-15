@@ -16,6 +16,11 @@ h1{color:grey;font-family:verdana;text-align: center;}
     background-color: yellow;
 }
 
+.calculator-form-table {
+    width: 350px;
+    margin: auto;
+}
+
 .calculator-form-table tbody td:first-child {
     width: 150px;
     text-align: left;
