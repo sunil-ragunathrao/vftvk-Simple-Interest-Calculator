@@ -16,4 +16,19 @@ h1{color:grey;font-family:verdana}
     background-color: yellow;
 }
 
+.calculator-section {
+    width: 300px;
+    display: flex;
+    margin: auto;
+}
+
+.calculator-section div:first-child {
+    width: 150px;
+}
+
+.result-section {
+    width: 300px;
+    margin: auto;
+}
+
 
