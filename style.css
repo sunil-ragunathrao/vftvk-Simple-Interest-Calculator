@@ -5,7 +5,7 @@ h1{color:grey;font-family:verdana}
 .maindiv {
     background-color: white;
     color: black;
-    width: 600px;
+    width: 700px;
     padding: 20px;
     border-radius: 25px;
     margin: auto;
@@ -29,6 +29,21 @@ h1{color:grey;font-family:verdana}
 .result-section {
     width: 300px;
     margin: auto;
+}
+
+.calculator-form-table {
+    width: 350px;
+    margin: auto;
+}
+
+.calculator-form-table tbody td:first-child {
+    width: 150px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.calculator-form-table tbody td:last-child {
+    text-align: left;
 }
 
 
